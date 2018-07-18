@@ -14,7 +14,7 @@ do
                 	`systemctl restart jboss`
 	                `sleep 300`
         	else
-                	echo `date | awk '{print$1,$2,$3,$4}'` - OK - Existe $con de conexoes no momento >> lfrjb.log
+                	echo `date | awk '{print$1,$2,$3,$4}'` - OK - Existem $con conexoes no momento >> lfrjb.log
 	                `sleep 15`
 		fi
         fi
